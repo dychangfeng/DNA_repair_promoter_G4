@@ -1,0 +1,372 @@
+
+# coding: utf-8
+
+# In[199]:
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib
+
+
+# In[200]:
+
+get_ipython().magic(u'matplotlib inline')
+
+
+# In[201]:
+
+dna_repair = pd.read_table("dna_repair_gene/DNA_repair_and_name.txt", sep='\t', header=None)
+dna_repair.columns=['bioentity', 'symbol', 'gene_info']
+dna_repair['symbol']=[x.upper() for x in dna_repair['symbol']]
+
+
+# In[203]:
+
+all_genes = pd.read_table("dna_repair_gene/geneid_symbols.txt", sep='\t')
+print all_genes.shape
+all_genes.head(100)
+
+
+# In[204]:
+
+all_genes.columns=['kgID', 'symbol']
+
+
+# In[205]:
+
+kgID_dna_repair=dna_repair.merge(all_genes, on='symbol')
+
+
+# In[210]:
+
+print kgID_dna_repair.shape, len(kgID_dna_repair.symbol.unique()) ## 390 unique 
+kgID_dna_repair.head(100)
+
+
+# In[219]:
+
+print len(tss_dist_up_down.gene_symbol.unique())
+odd_dna_repair=[]
+for i in kgID_dna_repair.symbol.unique():
+    if i not in tss_dist_up_down.gene_symbol.unique():
+        odd_dna_repair.append(i)
+print len(odd_dna_repair)
+
+
+# In[ ]:
+
+
+
+
+# In[48]:
+
+utr5=pd.read_table('utr5.txt', sep='\t', header=None)
+
+
+# In[157]:
+
+utr5.shape
+
+
+# In[51]:
+
+utr5.columns=['chr', 'start', 'end', 'gene_id', 'N', 'strand']
+utr5.head()
+utr5['kgID'], utr5['N2']=utr5.gene_id.str.split('_', 1).str ## split kgID out of gene_id
+utr5 = utr5.drop(axis=1, labels=['N', 'N2']) ## drop the two columns
+utr5_dna_repair=utr5.merge(kgID_dna_repair, how='inner', on='kgID')
+utr5_dna_repair.to_csv('./dna_repair_gene/utr5_dna_repair.txt', sep='\t', index=False)
+
+
+# In[67]:
+
+whole_gene=pd.read_table("whole_gene.txt", sep='\t', header=None)
+whole_gene.head()
+
+
+# In[7]:
+
+def find_tss(mydf): 
+    """add a column of tss to mydf, return mydf, for downstream TSS"""
+    tss=np.zeros(mydf.shape[0])
+    for i in range(mydf.shape[0]):
+        if mydf.strand[i]=='-':
+            tss[i]=mydf.end[i]
+        else:
+            tss[i]=mydf.start[i]
+    mydf['tss']=tss
+    return mydf
+
+
+# In[ ]:
+
+
+
+
+# In[8]:
+
+def find_tss_upstream(mydf): 
+    """add a column of tss to mydf, return mydf"""
+    tss=np.zeros(mydf.shape[0])
+    for i in range(mydf.shape[0]):
+        if mydf.strand[i]=='-':
+            tss[i]=mydf.start[i]
+        else:
+            tss[i]=mydf.end[i]
+    mydf['tss']=tss
+    return mydf
+
+
+# In[410]:
+
+up_2000=pd.read_table('dna_repair_gene/up2000_promoter.txt', sep='\t', header=None)
+up_2000.columns=['chr', 'start', 'end', 'gene_id', 'N', 'strand']
+up_2000['kgID'], up_2000['N2']=up_2000.gene_id.str.split('_', 1).str
+up_2000= up_2000.drop(axis=1, labels=['N', 'N2'])
+up_2000_dna_repair_gene=up_2000.merge(kgID_dna_repair, how='inner', on='kgID')
+
+
+# In[417]:
+
+down_1000=pd.read_table('dna_repair_gene/down_1000.txt', sep='\t', header=None)
+down_1000.columns=['chr', 'start', 'end', 'gene_id', 'N', 'strand']
+down_1000['kgID'], down_1000['N2']=down_1000.gene_id.str.split('_', 1).str
+down_1000 = down_1000.drop(axis=1, labels=['N', 'N2'])
+down_1000_dna_repair_gene=down_1000.merge(kgID_dna_repair, how='inner', on='kgID')
+
+
+# In[294]:
+
+find_tss(down_1000_dna_repair_gene).to_csv('dna_repair_gene/down1000_dna_repair.txt', sep='\t', index=False)
+
+
+# In[313]:
+
+find_tss_upstream(up_2000_dna_repair_gene).to_csv('dna_repair_gene/up2000_dna_repair.txt', sep='\t', index=False)
+
+
+# In[282]:
+
+down_1000_dna_repair_gene.head()
+
+
+# In[293]:
+
+find_tss(down_1000_dna_repair_gene).head(1000)
+
+
+# In[411]:
+
+up_2000=up_2000.merge(all_genes, on='kgID')
+
+
+# In[418]:
+
+
+down_1000=down_1000.merge(all_genes, on='kgID')
+
+
+# In[413]:
+
+
+find_tss_upstream(up_2000).to_csv('dna_repair_gene/up_2000_with_tss.txt', sep='\t', index=False)
+
+
+# In[419]:
+
+find_tss(down_1000).to_csv('dna_repair_gene/down_1000_with_tss.txt', sep='\t', index=False)
+
+
+# In[9]:
+
+G4_up2000=pd.read_csv('/Users/Yun/Desktop/dna_repair_gene/up2000_wo.txt', sep='\t', header=None)
+G4_down1000 = pd.read_csv('/Users/Yun/Desktop/dna_repair_gene/down1000_wo.txt', sep='\t', header=None)
+
+
+# In[211]:
+
+G4_all_up2000_down1000=G4_up2000.append(G4_down1000, ignore_index=True) ## merge all G4s
+
+
+# In[27]:
+
+## after intersection with the G4 file with bedtools, merge them to one file for DNArepair protein
+G4_DNArepair_2000promoter=pd.read_csv('/Users/Yun/Desktop/dna_repair_gene/up2000_DNArepair_wo.txt', sep='\t', header=None)
+G4_DNArepair_down1000=pd.read_csv('/Users/Yun/Desktop/dna_repair_gene/down1000_DNArepair_wo.txt', sep='\t', header=None)
+
+
+# In[ ]:
+
+G4_DNArepair_up2000_down_1000=G4_DNArepair_2000promoter.append(G4_DNArepair_down1000, ignore_index=True)## join two dataframe together
+tss_dist_up_down=distance_to_tss(G4_DNArepair_up2000_down_1000) ## DNA repair protein with distance to TSS
+
+
+# In[14]:
+
+G4_all_up2000_down1000.shape 
+
+
+# In[21]:
+
+G4_tss_distance=distance_to_tss_all_G4(G4_all_up2000_down1000)
+
+
+# In[ ]:
+
+tss_dist_up_down.to_csv("/Users/Yun/Desktop/dna_repair_gene/G4_DNArepair_up2000_down1000.txt", sep='\t', header=None)
+G4_tss_distance.to_csv("/Users/Yun/Desktop/dna_repair_gene/all_G4_within_up2000_down1000.txt", sep='\t', hader=None)
+
+
+# In[215]:
+
+len(tss_dist_up_down.gene_symbol.unique())
+
+
+# In[ ]:
+
+
+
+
+# In[15]:
+
+import pandas as pd
+def distance_to_tss_all_G4(mydf):
+    """the columns are slightly different in all the G4s compare to the DNA repair G4s because of the merging with GO,
+    a function take a dataframe to calculate the distance to tss based on the strand for promoter,
+    return a pandas data frame, column 12 is tss, gene symbol is column 11"""
+    d=[]
+    for i in range(mydf.shape[0]):
+        if mydf.iloc[i,1]==mydf.iloc[i-1,1] and mydf.iloc[i,11] == mydf.iloc[i-1,11]: #remove duplicate G4
+            continue
+        elif mydf.iloc[i,9]=='-' and mydf.iloc[i,3]=='+': ## on - strand, tss - start
+            d.append([mydf.iloc[i,12]-mydf.iloc[i,1], 'template', mydf.iloc[i,11], mydf.iloc[i,4]])
+        elif mydf.iloc[i,9]=='-' and mydf.iloc[i,3]=='-':
+            d.append([mydf.iloc[i,12]-mydf.iloc[i,1], 'coding',mydf.iloc[i,11], reverse_comp(mydf.iloc[i,4])])
+        elif mydf.iloc[i,9]=='+' and mydf.iloc[i,3]=='+': ## on + stand, tss -end
+            d.append([mydf.iloc[i,1]-mydf.iloc[i,12], 'coding',mydf.iloc[i,11],mydf.iloc[i,4]])
+        elif mydf.iloc[i,9]=='+' and mydf.iloc[i,3]=='-':
+            d.append([mydf.iloc[i,1]-mydf.iloc[i,12], 'template',mydf.iloc[i,11], reverse_comp(mydf.iloc[i,4])])
+    """for i in range(len(d)): ## covert the positive location to TSS location
+        if d[i][0]>-30 and d[i][0]<30:
+            d[i][0]=0"""
+    df_d=pd.DataFrame.from_records(d) 
+    df_d.columns=['distance_to_tss', 'strand', 'gene_symbol', 'G4_seq']
+    df_d=df_d.sort_values(by='gene_symbol')
+    
+    return df_d
+
+
+# In[197]:
+
+plot_distance_tss_bar(tss_dist_up_down, start=-2000, end=1000, strand='coding', alpha=0.6, color ='red')
+plot_distance_tss_2(G4_tss_distance, start=-2000, end=1000, alpha=1, color='blue') ## only draw steps in the figures
+plt.tight_layout() # otherwise the figure will be cropped
+plt.savefig("/Users/Yun/Desktop/dna_repair_gene/coding.png", dpi=500)
+
+
+# In[ ]:
+
+
+
+
+# In[196]:
+
+
+plot_distance_tss_bar(tss_dist_up_down, start=-2000, end=1000, strand='template', alpha=0.5, color ='black') ## G4_repair plot hist
+plot_distance_tss_2(G4_tss_distance, start=-2000, end=1000, strand='template', alpha=1, color='blue') ## only draw steps in the figures
+plt.tight_layout()
+plt.savefig("/Users/Yun/Desktop/dna_repair_gene/template.png", dpi=500)
+
+
+# In[ ]:
+
+def reverse_comp(seq):
+    bases_dict = {'A':'T', 'T':'A', 'G':'C', 'C':'G'}
+    return ''.join(bases_dict.get(base,base) for base in seq[::-1])
+
+
+# In[19]:
+
+import pandas as pd
+import seaborn as sns
+def distance_to_tss(mydf):
+    """a function take a dataframe to calculate the distance to tss based on the strand for promoter,
+    return a pandas data frame, column 14 is tss"""
+    d=[]
+    for i in range(mydf.shape[0]):
+        if mydf.iloc[i,1]==mydf.iloc[i-1,1] and mydf.iloc[i,12] == mydf.iloc[i-1,12]:
+            continue
+        elif mydf.iloc[i,9]=='-' and mydf.iloc[i,3]=='+': ## on - strand, tss - start
+            d.append([mydf.iloc[i,14]-mydf.iloc[i,1], 'template', mydf.iloc[i,12], mydf.iloc[i,4]])
+        elif mydf.iloc[i,9]=='-' and mydf.iloc[i,3]=='-':
+            d.append([mydf.iloc[i,14]-mydf.iloc[i,1], 'coding',mydf.iloc[i,12], reverse_comp(mydf.iloc[i,4])])
+        elif mydf.iloc[i,9]=='+' and mydf.iloc[i,3]=='+': ## on + stand, tss -end
+            d.append([mydf.iloc[i,1]-mydf.iloc[i,14], 'coding',mydf.iloc[i,12],mydf.iloc[i,4]])
+        elif mydf.iloc[i,9]=='+' and mydf.iloc[i,3]=='-':
+            d.append([mydf.iloc[i,1]-mydf.iloc[i,14], 'template',mydf.iloc[i,12], reverse_comp(mydf.iloc[i,4])])
+    """for i in range(len(d)): ## covert the positive location to TSS location
+        if d[i][0]>-30 and d[i][0]<30:
+            d[i][0]=0"""
+    df_d=pd.DataFrame.from_records(d)
+    df_d.columns=['distance_to_tss', 'strand', 'gene_symbol', 'G4_seq']
+    df_d=df_d.sort_values(by='gene_symbol')
+    
+    return df_d
+
+
+# In[191]:
+
+help(plt.subplots)
+
+
+# In[188]:
+
+import numpy as np
+import matplotlib.pyplot as plt
+def plot_distance_tss_bar(mydf, start=-1000, end=0, strand='coding', color='red',alpha=0.5): 
+    fig, ax=plt.subplots() ## build axis 
+    font = {'family': 'serif',
+        'color':  'darkred',
+        'weight': 'normal',
+        'size': 20,
+        }
+    ax.set_xlabel('Position Relative to TSS in ', fontdict=font)
+    ax.set_ylabel('Relative Frequency', fontdict=font)
+    data=mydf[mydf.strand==strand].iloc[:,0]
+    bins=np.linspace(start,end,(end-start)/50)
+    plt.hist(data,bins=bins, label=strand, color=color, alpha=alpha, normed=True) ## histplot with bins, and normed
+    ax.yaxis.set_major_formatter(mtick.FormatStrFormatter('%.1e'))
+    matplotlib.rc('xtick', labelsize=16)
+    matplotlib.rc('ytick', labelsize=16)
+
+
+# In[154]:
+
+len(tss_dist_up_down.iloc[:,0])
+
+
+# In[141]:
+
+ax.set_xlabel('Distance_to_TSS')
+plt.show()
+
+
+# In[183]:
+
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import matplotlib.ticker as mtick
+def plot_distance_tss_2(mydf, start=-1000, end=0, strand='coding', color='red',alpha=0.5):
+    """don't draw a new figure, add to the old one"""
+    data = mydf[mydf.strand==strand].iloc[:,0],
+    bins=np.linspace(start,end,(end-start)/50)
+    sns.distplot( data, hist=True, bins=bins, kde=False,label=strand, color=color, hist_kws={"histtype": "step", "linewidth": 3,
+     "alpha": alpha, "color": color}, norm_hist=True)
+
+
+# In[ ]:
+
+
+

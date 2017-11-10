@@ -1,0 +1,419 @@
+RGD:2318353	LOC100362333	DNA-directed DNA polymerase epsilon 3
+RGD:621168	Ogg1	8-oxoguanine DNA glycosylase
+RGD:620058	Polk	DNA polymerase kappa
+RGD:621424	Lig1	DNA ligase 1
+RGD:1308247	Polm	DNA polymerase mu
+RGD:2219	Brca2	BRCA2, DNA repair associated
+RGD:2218	Brca1	BRCA1, DNA repair associated
+RGD:1308053	Poll	DNA polymerase lambda
+RGD:1306715	Rev1	REV1, DNA directed polymerase
+RGD:1306496	Rad1	RAD1 checkpoint DNA exonuclease
+RGD:3106	Mpg	N-methylpurine-DNA glycosylase
+RGD:7675413	Poln	DNA polymerase nu
+RGD:1307200	Ung	uracil-DNA glycosylase
+RGD:3363	Polb	DNA polymerase beta
+RGD:1560342	Tdp2	tyrosyl-DNA phosphodiesterase 2
+RGD:1304639	Lig4	DNA ligase 4
+RGD:1309893	Polh	DNA polymerase eta
+RGD:1309875	Lig3	DNA ligase 3
+RGD:1309795	Polq	DNA polymerase theta
+RGD:1586156	Top2b	DNA topoisomerase II beta
+RGD:620959	Tdg	thymine-DNA glycosylase
+RGD:1309618	Tdp1	tyrosyl-DNA phosphodiesterase 1
+RGD:1307611	Dmc1	DNA meiotic recombinase 1
+RGD:620045	Mutyh	mutY DNA glycosylase
+RGD:1305212	Poli	DNA polymerase iota
+RGD:1560103	Helb	DNA helicase B
+RGD:1306077	Neil1	nei-like DNA glycosylase 1
+RGD:1312033	Neil2	nei-like DNA glycosylase 2
+RGD:1310562	Neil3	nei-like DNA glycosylase 3
+RGD:620057	Polg	DNA polymerase gamma, catalytic subunit
+RGD:1310343	Dclre1b	DNA cross-link repair 1B
+RGD:1306156	Dclre1a	DNA cross-link repair 1A
+RGD:1304975	Rad52	RAD52 homolog, DNA repair protein
+RGD:708574	Dclre1c	DNA cross-link repair 1C
+RGD:1307483	Tonsl	tonsoku-like, DNA repair protein
+RGD:1306791	Dna2	DNA replication helicase/nuclease 2
+RGD:3087	Mgmt	O-6-methylguanine-DNA methyltransferase
+RGD:1562119	Primpol	primase and DNA directed polymerase
+RGD:1309289	Nthl1	nth-like DNA glycosylase 1
+RGD:1304693	Mms22l	MMS22-like, DNA repair protein
+RGD:1594540	Pole	DNA polymerase epsilon, catalytic subunit
+RGD:621839	Pold1	DNA polymerase delta 1, catalytic subunit
+RGD:621816	Pola1	DNA polymerase alpha 1, catalytic subunit
+RGD:1309395	Polr2i	RNA polymerase II subunit I
+RGD:1561068	Mcmdc2	minichromosome maintenance domain containing 2
+RGD:2643	Xrcc6	X-ray repair cross complementing 6
+RGD:1308223	Rad9b	RAD9 checkpoint clamp component B
+RGD:1561931	Nexmif	neurite extension and migration factor
+RGD:1307087	Rev3l	REV3 like, DNA directed polymerase zeta catalytic subunit
+RGD:1560340	Ercc4	ERCC excision repair 4, endonuclease catalytic subunit
+RGD:3976	Xrcc5	X-ray repair cross complementing 5
+RGD:619823	Xrcc1	X-ray repair cross complementing 1
+RGD:1305218	Mcm8	minichromosome maintenance 8 homologous recombination repair factor
+RGD:2319938	Rad9a	RAD9 checkpoint clamp component A
+RGD:1308982	Prkdc	protein kinase, DNA activated, catalytic polypeptide
+RGD:621889	Ddb1	damage-specific DNA binding protein 1
+RGD:1585874	Mbd4	methyl-CpG binding domain 4 DNA glycosylase
+RGD:1305128	Polg2	DNA polymerase gamma 2, accessory subunit
+RGD:1586053	Pif1	PIF1 5'-to-3' DNA helicase
+RGD:1359475	Pole3	DNA polymerase epsilon 3, accessory subunit
+RGD:1304954	Pold2	DNA polymerase delta 2, accessory subunit
+RGD:1311962	Pole2	DNA polymerase epsilon 2, accessory subunit
+RGD:1311935	Chd1l	chromodomain helicase DNA binding protein 1-like
+RGD:1308519	Pold4	DNA polymerase delta 4, accessory subunit
+RGD:1311295	Dmap1	DNA methyltransferase 1-associated protein 1
+RGD:1307793	Pole4	DNA polymerase epsilon 4, accessory subunit
+RGD:1310164	Ddb2	damage specific DNA binding protein 2
+RGD:1312027	Pold3	DNA polymerase delta 3, accessory subunit
+RGD:1559468	Mdc1	mediator of DNA damage checkpoint 1
+RGD:1566036	Spidr	scaffolding protein involved in DNA repair
+RGD:1308769	Xpa	XPA, DNA damage recognition and repair factor
+RGD:9095262	LOC103690054	DNA-directed RNA polymerase II subunit RPB9
+RGD:1563954	Msh3	mutS homolog 3
+RGD:1303008	Msh5	mutS homolog 5
+RGD:628836	Wrnip1	Werner helicase interacting protein 1
+RGD:1310823	Recql5	RecQ like helicase 5
+RGD:1306406	Cpsf1	cleavage and polyadenylation specific factor 1
+RGD:1311071	Recql	RecQ like helicase
+RGD:1311055	Gins2	GINS complex subunit 2
+RGD:2322311	Msh6	mutS homolog 6
+RGD:1309190	Msh4	mutS homolog 4
+RGD:1311208	Rbm17	RNA binding motif protein 17
+RGD:1308327	Alkbh1	alkB homolog 1, histone H2A dioxygenase
+RGD:1311636	Sf3b3	splicing factor 3b, subunit 3
+RGD:1307732	Recql4	RecQ like helicase 4
+RGD:70892	Cdc5l	cell division cycle 5-like
+RGD:1307139	Ercc3	ERCC excision repair 3, TFIIH core complex helicase subunit
+RGD:1305760	Xpc	XPC complex subunit, DNA damage recognition and repair factor
+RGD:1304857	Slf1	SMC5-SMC6 complex localization factor 1
+RGD:1564788	Wrn	Werner syndrome RecQ like helicase
+RGD:620786	Msh2	mutS homolog 2
+RGD:631403	Smug1	single-strand-selective monofunctional uracil-DNA glycosylase 1
+RGD:1591976	Hus1	HUS1 checkpoint clamp component
+RGD:1563765	Rad51c	RAD51 paralog C
+RGD:621821	Fen1	flap structure-specific endonuclease 1
+RGD:620937	Mlh1	mutL homolog 1
+RGD:621198	Rfc2	replication factor C subunit 2
+RGD:1559792	Gen1	GEN1 Holliday junction 5' flap endonuclease
+RGD:1309465	Exo1	exonuclease 1
+RGD:1560681	Rad51b	RAD51 paralog B
+RGD:1309280	Rfc5	replication factor C subunit 5
+RGD:1306298	Fbxo18	F-box protein, helicase, 18
+RGD:1593313	Esco2	establishment of sister chromatid cohesion N-acetyltransferase 2
+RGD:1306832	Rfc3	replication factor C subunit 3
+RGD:1306721	Rtel1	regulator of telomere elongation helicase 1
+RGD:1306675	Ddx11	DEAD/H-box helicase 11
+RGD:1310142	Rfc4	replication factor C subunit 4
+RGD:1305483	Pms2	PMS1 homolog 2, mismatch repair system component
+RGD:1309227	Mlh3	mutL homolog 3
+RGD:1309109	Ercc2	ERCC excision repair 2, TFIIH core complex helicase subunit
+RGD:1564823	Xrcc2	X-ray repair cross complementing 2
+RGD:1586176	Ercc5	ERCC excision repair 5, endonuclease
+RGD:1596873	Esco1	establishment of sister chromatid cohesion N-acetyltransferase 1
+RGD:1307659	Brip1	BRCA1 interacting protein C-terminal helicase 1
+RGD:1563603	Rad51	RAD51 recombinase
+RGD:11468204	LOC108349189	high mobility group protein B1 pseudogene
+RGD:1306377	Alkbh2	alkB homolog 2, alpha-ketoglutarate-dependent dioxygenase
+RGD:1590928	Cdc45	cell division cycle 45
+RGD:1307397	Gins4	GINS complex subunit 4
+RGD:1307465	Mgme1	mitochondrial genome maintenance exonuclease 1
+RGD:1359731	Alkbh3	alkB homolog 3, alpha-ketoglutarate-dependent dioxygenase
+RGD:1310568	Parp2	poly (ADP-ribose) polymerase 2
+RGD:5128728	Cenps	centromere protein S
+RGD:1311941	Asf1a	anti-silencing function 1A histone chaperone
+RGD:1308026	Swsap1	SWIM-type zinc finger 7 associated protein 1
+RGD:1309067	Eme1	essential meiotic structure-specific endonuclease 1
+RGD:619714	Rpa2	replication protein A2
+RGD:1307995	Ascc3	activating signal cointegrator 1 complex subunit 3
+RGD:1306134	Smarcal1	Swi/SNF related matrix associated, actin dependent regulator of chromatin, subfamily a-like 1
+RGD:1306810	Rpa3	replication protein A3
+RGD:1306944	Rad51d	RAD51 paralog D
+RGD:1308929	Fam168a	family with sequence similarity 168, member A
+RGD:1309007	Mnd1	meiotic nuclear divisions 1
+RGD:1564952	Zranb3	zinc finger RANBP2-type containing 3
+RGD:2314264	Parpbp	PARP1 binding protein
+RGD:1307248	Rnaseh2a	ribonuclease H2, subunit A
+RGD:1304924	Eme2	essential meiotic structure-specific endonuclease subunit 2
+RGD:1560557	Mcm9	minichromosome maintenance 9 homologous recombination repair factor
+RGD:1307401	Eepd1	endonuclease/exonuclease/phosphatase family domain containing 1
+RGD:1559966	Swi5	SWI5 homologous recombination repair protein
+RGD:1311957	Mus81	MUS81 structure-specific endonuclease subunit
+RGD:621543	Chek2	checkpoint kinase 2
+RGD:1311311	Slc25a16	solute carrier family 25 member 16
+RGD:1305121	Fto	FTO, alpha-ketoglutarate dependent dioxygenase
+RGD:1307376	Rpa1	replication protein A1
+RGD:1597431	Rad51ap1	RAD51 associated protein 1
+RGD:1565882	Setmar	SET domain and mariner transposase fusion gene
+RGD:1306215	Paxx	PAXX, non-homologous end joining factor
+RGD:1311087	Exd2	exonuclease 3'-5' domain containing 2
+RGD:1359511	Pms1	PMS1 homolog 1, mismatch repair system component
+RGD:1359338	Nhej1	nonhomologous end-joining factor 1
+RGD:1566323	Fan1	FANCD2 and FANCI associated nuclease 1
+RGD:1564836	RGD1564836	similar to HMGA1b
+RGD:1310324	Zswim7	zinc finger, SWIM-type containing 7
+RGD:1305189	Parp3	poly (ADP-ribose) polymerase family, member 3
+RGD:2330	Cebpg	CCAAT/enhancer binding protein gamma
+RGD:1308810	Blm	Bloom syndrome RecQ like helicase
+RGD:1565983	Apex2	apurinic/apyrimidinic endodeoxyribonuclease 2
+RGD:1583288	Rnf169	ring finger protein 169
+RGD:3269	Pcna	proliferating cell nuclear antigen
+RGD:9295713	LOC103690165	checkpoint protein HUS1B
+RGD:1304637	Oraov1	oral cancer overexpressed 1
+RGD:1310969	Ino80	INO80 complex subunit
+RGD:69263	Mre11a	MRE11 homolog A, double strand break repair nuclease
+RGD:1303309	Gtf2h4	general transcription factor 2H subunit 4
+RGD:1308351	Cdc7	cell division cycle 7
+RGD:1305243	Rfwd3	ring finger and WD repeat domain 3
+RGD:1565378	Spata22	spermatogenesis associated 22
+RGD:1303041	Pclaf	PCNA clamp associated factor
+RGD:1565217	Ccno	cyclin O
+RGD:1306507	Rad54b	RAD54 homolog B (S. cerevisiae)
+RGD:61807	Foxm1	forkhead box M1
+RGD:628740	Aptx	aprataxin
+RGD:1583204	Meiob	meiosis specific with OB domains
+RGD:1305287	Abraxas1	abraxas 1, BRCA1 A complex subunit
+RGD:1561451	Nudt16l1	nudix hydrolase 16 like 1
+RGD:1560612	Phf21a	PHD finger protein 21A
+RGD:1563238	LOC500077	similar to RIKEN cDNA 3110062M04
+RGD:1304643	Aste1	asteroid homolog 1
+RGD:1309515	Rad17	RAD17 checkpoint clamp loader component
+RGD:3982	Yy1	YY1 transcription factor
+RGD:1309684	Terf2ip	TERF2 interacting protein
+RGD:1561555	Fancb	Fanconi anemia, complementation group B
+RGD:1310432	Rdm1	RAD52 motif containing 1
+RGD:1593125	Ap5z1	adaptor-related protein complex 5, zeta 1 subunit
+RGD:1565557	Aplf	aprataxin and PNKP like factor
+RGD:3794	Sycp1	synaptonemal complex protein 1
+RGD:1310600	Rad54l	RAD54 like
+RGD:1359572	Ino80e	INO80 complex subunit E
+RGD:1308174	Fign	fidgetin, microtubule severing factor
+RGD:1308923	Faap20	Fanconi anemia core complex associated protein 20
+RGD:1359404	Rhno1	RAD9-HUS1-RAD1 interacting nuclear orphan 1
+RGD:2126	Apex1	apurinic/apyrimidinic endodeoxyribonuclease 1
+RGD:1306658	Nabp1	nucleic acid binding protein 1
+RGD:1304593	Ints3	integrator complex subunit 3
+RGD:1309802	Exo5	exonuclease 5
+RGD:1359573	Xrcc4	X-ray repair cross complementing 4
+RGD:1306509	Ruvbl2	RuvB-like AAA ATPase 2
+RGD:1306454	Spo11	SPO11, initiator of meiotic double stranded breaks
+RGD:61991	Smc1a	structural maintenance of chromosomes 1A
+RGD:1564036	Mrnip	MRN complex interacting protein
+RGD:1560991	Gtf2h5	general transcription factor IIH subunit 5
+RGD:620619	Rfc1	replication factor C subunit 1
+RGD:1308039	Tp53bp1	tumor protein p53 binding protein 1
+RGD:1311492	Hinfp	histone H4 transcription factor
+RGD:1308761	Smarcb1	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b, member 1
+RGD:2321863	Fanci	Fanconi anemia, complementation group I
+RGD:621542	Rad50	RAD50 double strand break repair protein
+RGD:628699	Hmga1	high mobility group AT-hook 1
+RGD:1308158	Nabp2	nucleic acid binding protein 2
+RGD:1308852	Usp3	ubiquitin specific peptidase 3
+RGD:1306993	Rad18	RAD18 E3 ubiquitin protein ligase
+RGD:1309681	Npas2	neuronal PAS domain protein 2
+RGD:1597300	Tex12	testis expressed 12
+RGD:1307094	Pds5a	PDS5 cohesin associated factor A
+RGD:1308492	Rpain	RPA interacting protein
+RGD:1559456	Six6os1	Six6 opposite strand transcript 1
+RGD:621143	Ssrp1	structure specific recognition protein 1
+RGD:1590628	Sem1	SEM1, 26S proteasome complex subunit
+RGD:1310199	Ino80c	INO80 complex subunit C
+RGD:1306992	Ercc1	ERCC excision repair 1, endonuclease non-catalytic subunit
+RGD:1303246	Dek	DEK proto-oncogene
+RGD:1308548	Dhx9	DExH-box helicase 9
+RGD:1306693	Bach1	BTB domain and CNC homolog 1
+RGD:1308035	Rnf8	ring finger protein 8
+RGD:621420	Nbn	nibrin
+RGD:1566119	H2afx	H2A histone family, member X
+RGD:1307703	Tmem161a	transmembrane protein 161A
+RGD:735111	Babam2	BRISC and BRCA1 A complex member 2
+RGD:1359516	Babam1	BRISC and BRCA1 A complex member 1
+RGD:619795	Atrx	ATRX, chromatin remodeler
+RGD:620387	Parg	poly (ADP-ribose) glycohydrolase
+RGD:1309640	Smarcad1	SWI/SNF-related, matrix-associated actin-dependent regulator of chromatin, subfamily a, containing DEAD/H box 1`
+RGD:1311998	Trex1	three prime repair exonuclease 1
+RGD:1305582	Mcmdc1	minichromosome maintenance deficient domain containing 1
+RGD:1562414	Endov	endonuclease V
+RGD:620993	Nucks1	nuclear casein kinase and cyclin-dependent kinase substrate 1
+RGD:1303331	Pnkp	polynucleotide kinase 3'-phosphatase
+RGD:1359638	Cdk9	cyclin-dependent kinase 9
+RGD:620617	Hmga2	high mobility group AT-hook 2
+RGD:1585168	Rnf168	ring finger protein 168
+RGD:1308872	Rbbp8	RB binding protein 8, endonuclease
+RGD:1307009	Uimc1	ubiquitin interaction motif containing 1
+RGD:1308340	Mum1	melanoma associated antigen (mutated) 1
+RGD:1306926	Faap100	Fanconi anemia core complex associated protein 100
+RGD:3795	Sycp3	synaptonemal complex protein 3
+RGD:3884	Tnp1	transition protein 1
+RGD:1564719	Faap24	Fanconi anemia core complex associated protein 24
+RGD:1307983	Inip	INTS3 and NABP interacting protein
+RGD:1305494	Gtf2h3	general transcription factor IIH subunit 3
+RGD:1563101	Klhl15	kelch-like family member 15
+RGD:9203817	LOC103694876	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1
+RGD:1597206	Eid3	EP300 interacting inhibitor of differentiation 3
+RGD:1311284	Ttc5	tetratricopeptide repeat domain 5
+RGD:1307760	Nsmce1	NSE1 homolog, SMC5-SMC6 complex component
+RGD:2053	Parp1	poly (ADP-ribose) polymerase 1
+RGD:1305481	Sfr1	SWI5-dependent homologous recombination repair protein 1
+RGD:1560300	Slf2	SMC5-SMC6 complex localization factor 2
+RGD:1595855	Uhrf1	ubiquitin-like with PHD and ring finger domains 1
+RGD:68373	Ruvbl1	RuvB-like AAA ATPase 1
+RGD:1306849	Xrcc3	X-ray repair cross complementing 3
+RGD:1562474	Rif1	replication timing regulatory factor 1
+RGD:1549738	Nono	non-POU domain containing, octamer-binding
+RGD:727923	Sfpq	splicing factor proline and glutamine rich
+RGD:62006	Smc3	structural maintenance of chromosomes 3
+RGD:1562211	Usp51	ubiquitin specific peptidase 51
+RGD:1311266	Tex15	testis expressed 15, meiosis and synapsis associated
+RGD:1307312	Ppp4r2	protein phosphatase 4, regulatory subunit 2
+RGD:621225	Ppp4c	protein phosphatase 4, catalytic subunit
+RGD:1565986	Zfp365	zinc finger protein 365
+RGD:620289	Trim28	tripartite motif-containing 28
+RGD:70486	Cdk2	cyclin dependent kinase 2
+RGD:619888	Rps3	ribosomal protein S3
+RGD:1311568	Slx1b	SLX1 homolog B, structure-specific endonuclease subunit
+RGD:619903	Ddx1	DEAD-box helicase 1
+RGD:620913	Hsf1	heat shock transcription factor 1
+RGD:1307499	Mad2l2	mitotic arrest deficient 2 like 2
+RGD:1566009	Slx4	SLX4 structure-specific endonuclease subunit
+RGD:3192	Npm1	nucleophosmin 1
+RGD:1565575	Setx	senataxin
+RGD:1305796	Atr	ATR serine/threonine kinase
+RGD:1310838	Pds5b	PDS5 cohesin associated factor B
+RGD:1562245	Trex2	three prime repair exonuclease 2
+RGD:1561852	Ap5s1	adaptor-related protein complex 5, sigma 1 subunit
+RGD:1307820	Zfyve26	zinc finger FYVE-type containing 26
+RGD:1591045	Kdm4d	lysine demethylase 4D
+RGD:1307958	Actr5	ARP5 actin-related protein 5 homolog
+RGD:1560216	Helq	helicase, POLQ-like
+RGD:621096	Ube2n	ubiquitin-conjugating enzyme E2N
+RGD:1311555	Usp28	ubiquitin specific peptidase 28
+RGD:1307761	Hmgn1	high mobility group nucleosome binding domain 1
+RGD:1559496	Sprtn	SprT-like N-terminal domain
+RGD:1562958	Rad23b	RAD23 homolog B, nucleotide excision repair protein
+RGD:1308225	Gtf2h1	general transcription factor IIH subunit 1
+RGD:1311570	Ercc8	ERCC excision repair 8, CSA ubiquitin ligase complex subunit
+RGD:1306644	Dot1l	DOT1 like histone lysine methyltransferase
+RGD:1309932	Eya3	EYA transcriptional coactivator and phosphatase 3
+RGD:628819	Trpc2	transient receptor potential cation channel, subfamily C, member 2, pseudogene
+RGD:1311214	Smc6	structural maintenance of chromosomes 6
+RGD:7692537	LOC102549471	short transient receptor potential channel 2-like
+RGD:1304759	Palb2	partner and localizer of BRCA2
+RGD:1595396	Rps27l	ribosomal protein S27-like
+RGD:1593265	Atm	ATM serine/threonine kinase
+RGD:3889	Tp53	tumor protein p53
+RGD:621485	Rnf138	ring finger protein 138
+RGD:1588543	Brcc3	BRCA1/BRCA2-containing complex, subunit 3
+RGD:1311329	Otub1	OTU deubiquitinase, ubiquitin aldehyde binding 1
+RGD:1306607	Trip12	thyroid hormone receptor interactor 12
+RGD:1310499	Gtf2h2	general transcription factor IIH subunit 2
+RGD:735189	Kctd13	potassium channel tetramerization domain containing 13
+RGD:1306915	Usp7	ubiquitin specific peptidase 7
+RGD:1305503	Ube2v1	ubiquitin conjugating enzyme E2 V1
+RGD:621018	Mta1	metastasis associated 1
+RGD:1560863	Cdca5	cell division cycle associated 5
+RGD:1306461	Usp1	ubiquitin specific peptidase 1
+RGD:727890	Mms19	MMS19 homolog, cytosolic iron-sulfur assembly component
+RGD:620545	Chek1	checkpoint kinase 1
+RGD:1308832	Smarca5	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5
+RGD:1305592	Pagr1	Paxip1-associated glutamate-rich protein 1
+RGD:1562975	Kdm1a	lysine demethylase 1A
+RGD:1565375	Cbx8	chromobox 8
+RGD:620839	Tfpt	TCF3 fusion partner
+RGD:1306045	Rrm2b	ribonucleotide reductase regulatory TP53 inducible subunit M2B
+RGD:7505493	Rcor1	REST corepressor 1
+RGD:1303172	Fancd2	Fanconi anemia, complementation group D2
+RGD:621217	Xab2	XPA binding protein 2
+RGD:1307955	Nsd2	nuclear receptor binding SET domain protein 2
+RGD:621455	Twist1	twist family bHLH transcription factor 1
+RGD:1587144	LOC679539	similar to ubiquitin-conjugating enzyme E2 variant 1
+RGD:9219913	LOC103689943	meiosis arrest female protein 1-like
+RGD:1306371	Uvssa	UV-stimulated scaffold protein A
+RGD:1589127	Upf1	UPF1, RNA helicase and ATPase
+RGD:1311427	Fancl	Fanconi anemia, complementation group L
+RGD:1306765	Ggn	gametogenetin
+RGD:1561537	Ercc6l2	ERCC excision repair 6 like 2
+RGD:1310976	Usp45	ubiquitin specific peptidase 45
+RGD:6486058	LOC100912618	ubiquitin-conjugating enzyme E2 variant 1-like
+RGD:2802	Hmgb1	high mobility group box 1
+RGD:620939	Timeless	timeless circadian regulator
+RGD:1307492	Smc5	structural maintenance of chromosomes 5
+RGD:1310746	Chchd4	coiled-coil-helix-coiled-coil-helix domain containing 4
+RGD:1303321	Ier3	immediate early response 3
+RGD:1565144	Dtx3l	deltex E3 ubiquitin ligase 3L
+RGD:708496	Prpf19	pre-mRNA processing factor 19
+RGD:1305576	Setd2	SET domain containing 2
+RGD:727838	Ube2v2	ubiquitin conjugating enzyme E2 V2
+RGD:1307099	Eya4	EYA transcriptional coactivator and phosphatase 4
+RGD:620096	Eya2	EYA transcriptional coactivator and phosphatase 2
+RGD:1310411	Usp47	ubiquitin specific peptidase 47
+RGD:1359471	Morf4l2	mortality factor 4 like 2
+RGD:1307938	Morf4l1	mortality factor 4 like 1
+RGD:1307534	Parp9	poly (ADP-ribose) polymerase family, member 9
+RGD:621124	Cdk7	cyclin-dependent kinase 7
+RGD:628874	Mnat1	MNAT1, CDK activating kinase assembly factor
+RGD:3877	Tnfaip1	TNF alpha induced protein 1
+RGD:2122	Apbb1	amyloid beta precursor protein binding family B member 1
+RGD:1584849	Eya1	EYA transcriptional coactivator and phosphatase 1
+RGD:1591971	Psme4	proteasome activator subunit 4
+RGD:1310439	Dtl	denticleless E3 ubiquitin protein ligase homolog
+RGD:9288456	LOC103694506	ubiquitin-conjugating enzyme E2 W
+RGD:1311509	Ercc6	ERCC excision repair 6, chromatin remodeling factor
+RGD:1310816	Ube2t	ubiquitin-conjugating enzyme E2T
+RGD:620418	Fbxo6	F-box protein 6
+RGD:1565480	Ube2u	ubiquitin-conjugating enzyme E2U (putative)
+RGD:1311886	Kif22	kinesin family member 22
+RGD:1560038	Tigar	TP53 induced glycolysis regulatory phosphatase
+RGD:7571422	LOC102551929	melanoma-associated antigen G1-like
+RGD:1309376	Rec8	REC8 meiotic recombination protein
+RGD:620247	Cetn2	centrin 2
+RGD:1561972	Ccdc155	coiled-coil domain containing 155
+RGD:1308516	Trip13	thyroid hormone receptor interactor 13
+RGD:1562861	Taok3	TAO kinase 3
+RGD:621236	Ubr5	ubiquitin protein ligase E3 component n-recognin 5
+RGD:1587557	Rad21l1	RAD21 cohesin complex component like 1
+RGD:1309702	Wdr48	WD repeat domain 48
+RGD:1303095	Zbtb1	zinc finger and BTB domain containing 1
+RGD:1563853	Cul4a	cullin 4A
+RGD:1597089	Baz1b	bromodomain adjacent to zinc finger domain, 1B
+RGD:2319	Cdk1	cyclin-dependent kinase 1
+RGD:1311387	Nudt16	nudix hydrolase 16
+RGD:3397	Prkcg	protein kinase C, gamma
+RGD:1562602	Pml	promyelocytic leukemia
+RGD:621061	Kat5	lysine acetyltransferase 5
+RGD:1303085	Nop53	NOP53 ribosome biogenesis factor
+RGD:1308542	Sirt1	sirtuin 1
+RGD:1594529	Rad21	RAD21 cohesin complex component
+RGD:1307112	Fignl1	fidgetin-like 1
+RGD:1305216	Sirt6	sirtuin 6
+RGD:1564494	Cul4b	cullin 4B
+RGD:1561965	Usp10	ubiquitin specific peptidase 10
+RGD:1309899	Rad23a	RAD23 homolog A, nucleotide excision repair protein
+RGD:9295755	LOC103694902	ubiquitin-conjugating enzyme E2 B
+RGD:68359	Pttg1	pituitary tumor-transforming 1
+RGD:2593	Fancc	Fanconi anemia, complementation group C
+RGD:1312021	Tnks1bp1	tankyrase 1 binding protein 1
+RGD:6503620	Ube2w	ubiquitin-conjugating enzyme E2W
+RGD:1561763	Huwe1	HECT, UBA and WWE domain containing 1, E3 ubiquitin protein ligase
+RGD:621080	Nudt1	nudix hydrolase 1
+RGD:1594532	Psmd14	proteasome 26S subunit, non-ATPase 14
+RGD:1589754	Uvrag	UV radiation resistance associated
+RGD:1305156	Nsmce2	NSE2/MMS21 homolog, SMC5-SMC6 complex SUMO ligase
+RGD:1312046	Mc1r	melanocortin 1 receptor
+RGD:708345	Ube2b	ubiquitin-conjugating enzyme E2B
+RGD:1309419	Kdm2a	lysine demethylase 2A
+RGD:1563746	Meioc	meiosis specific with coiled-coil domain
+RGD:621072	Bard1	BRCA1 associated RING domain 1
+RGD:1305911	Ap1s1	adaptor-related protein complex 1, sigma 1 subunit
+RGD:1359534	Ube2a	ubiquitin-conjugating enzyme E2A
+RGD:619912	Ube2d3	ubiquitin-conjugating enzyme E2D 3
+RGD:621808	Park7	Parkinsonism associated deglycase
+RGD:621595	Vcp	valosin-containing protein
+RGD:69259	Axin2	axin 2
+RGD:2606	Fgf10	fibroblast growth factor 10
+RGD:68371	Mtor	mechanistic target of rapamycin kinase
+RGD:2543	Egfr	epidermal growth factor receptor
+RGD:1593284	Hspa1a	heat shock protein family A (Hsp70) member 1A
+RGD:708455	Taok1	TAO kinase 1
+RGD:2346	Chrna4	cholinergic receptor nicotinic alpha 4 subunit
+RGD:3731	Sod1	superoxide dismutase 1
